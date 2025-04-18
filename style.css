@@ -1,0 +1,34 @@
+body{
+    background-color: #f7ecde;
+}
+
+.logo h1{
+    font-family: "Pacifico", cursive ;
+    color: #352e28 ;
+}
+
+.body-form{
+    border-top: 3px dotted black;
+    border-bottom: 3px dotted black;
+
+}
+.body-form h4 {
+    font-family: "Righteous", cursive;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49) ;
+}
+
+.body-form button{
+    background-color: #d1512d;
+    color: #fff;
+}
+
+.body-form button:hover{
+    background-color: #bb4120;
+    color: #fff;
+
+}
+
+.dec{
+    text-decoration: none;
+    color: #fff;
+}
