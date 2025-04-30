@@ -20,7 +20,7 @@ function add() {
 
     container.push(sites);
     localStorage.setItem("site", JSON.stringify(container))
-    console.log(sites);
+    
 
     display()
     clear()
@@ -49,8 +49,8 @@ function display() {
         tableDesgin += `
 
         <tr>
-                <th scope="row" class="text-center">${container[i].site_Name}</th>
-                <td class="text-center">${container[i].site_URL}</td>
+                <th scope="row" class="text-center text-wrap  text-break">${container[i].site_Name}</th>
+                <td class="text-center text-wrap  text-break">${container[i].site_URL}</td>
                 <td  class="text-center"><button class="btn btn-success" id = "visits" >
 
                 <a onclick="" href="${container[i].site_URL}" class="dec" target="_blank">

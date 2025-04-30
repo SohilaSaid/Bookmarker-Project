@@ -1,5 +1,6 @@
 body{
     background-color: #f7ecde;
+    overflow-x: hidden;
 }
 
 .logo h1{
@@ -32,3 +33,4 @@ body{
     text-decoration: none;
     color: #fff;
 }
+
